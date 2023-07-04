@@ -10,11 +10,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*
-  background-image: url("./img/fondo.jpg");
+  background-image: url("fondo.jpg");
   background-position: center;
   background-size: cover;
-  */
+ 
 }
 
 .pad-button,
