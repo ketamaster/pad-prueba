@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   width: 100%;
   min-height: 100vh;
@@ -13,7 +14,6 @@ body {
   background-image: url("fondo.jpg");
   background-position: center;
   background-size: cover;
- 
 }
 
 .pad-button,
@@ -27,11 +27,13 @@ body {
   font-size: 20px;
   font-weight: 800;
 }
+
 .pad-button:hover,
 #pad-button-reg:hover {
   background-color: rgba(255, 255, 255, 0.959);
   cursor: pointer;
 }
+
 .pad-button:active,
 #pad-button-reg:active {
   background-color: rgba(0, 0, 0, 0.603);
@@ -53,22 +55,21 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 1000px;
-  min-height: 400px;
+  max-width: 900px;
+  min-height: 450px;
   background-color: rgba(25, 25, 25, 0.5);
-  border-radius: 10px;
+  border-radius: 45px;
   padding: 10px;
 }
 
 .form-container {
-
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 500px;
   height: auto;
   background-color: rgba(25, 25, 25, 0.5);
-  border-radius: 10px;
+  border-radius: 25px;
   padding: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -195,6 +196,10 @@ input[type="number"]::-webkit-outer-spin-button {
   padding-left: 5px;
 }
 
+.modal-input {
+  outline-color: rgba(207, 16, 16, .8);
+}
+
 .modal-button {
   margin-top: 10px;
   height: 30px;
@@ -210,6 +215,7 @@ input[type="number"]::-webkit-outer-spin-button {
   background: rgba(235, 67, 67, 0.762);
   cursor: pointer;
 }
+
 .modal-button:active {
   background-color: rgba(0, 0, 0, 0.763);
   color: white;

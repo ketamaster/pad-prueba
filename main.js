@@ -300,6 +300,7 @@ demorasCargas.addEventListener("click", () => {
 
 btn.onclick = function () {
   modal.style.display = "block";
+  usuario.focus();
 };
 
 span.onclick = function () {
