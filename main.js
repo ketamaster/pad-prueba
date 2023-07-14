@@ -46,6 +46,12 @@ ENVIAR:
 🔺USUARIO de la plataforma
 🔺NOMBRE COMPLETO del TITULAR de la cuenta bancaria
 
+❗Para cargas *MENORES* a $3.000 se debe abonar un *RECARGO* de $30.❗
+Ejemplo: $1.000 = $1.030
+
+*Si no envían los $30 se le descuenta de su carga neta*
+Ejemplo: $1.000 = $970
+
 *INGRESÁ AQUÍ PARA JUGAR:* jugalodos.com`;
       const elementoTemporal = document.createElement("textarea");
       elementoTemporal.value = texto;
