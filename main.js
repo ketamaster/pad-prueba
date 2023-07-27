@@ -89,7 +89,7 @@ registrar.addEventListener("click", function (e) {
   const texto = `🔸*USUARIO REGISTRADO*🔸
 
 *TU USUARIO:* ${user}
-*CONTRASEÑA:* BET123
+*CONTRASEÑA:* bet123
 
 Para comenzar a jugar ingresá aquí: jugalodos.com
     
