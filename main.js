@@ -31,12 +31,10 @@ form.addEventListener("submit", function (e) {
   if (inputNombre.length != 0 && inputCBU != 0 && inputAlias.length != 0) {
     cbuxl.addEventListener("click", () => {
       const texto = `Hola! ⚠️ *NO ENVIAR DINERO SIN CONSULTAR CBU SEGUNDOS ANTES* ⚠️
-‼️(LOS CBU CAMBIAN, *PUEDE PERDER SU DINERO, QUEDA AVISADO*)‼️
 
-⚜️ *MÍNIMO DE CARGA $800*
+⚜️ *SIN MÍNIMO DE CARGA* ⚜️
 
 *DATOS DE LA CUENTA*
-
 Nombre Completo: *${inputNombre}*
 CBU: *${inputCBU}*
 Alias: *${inputAlias}*
@@ -52,7 +50,7 @@ Ejemplo: $1.000 = $1.030
 *Si no envían los $30 se le descuenta de su carga neta*
 Ejemplo: $1.000 = $970
 
-*INGRESÁ AQUÍ PARA JUGAR:* jugalodos.com`;
+📲 *INGRESÁ AQUÍ PARA JUGAR:* jugalodos.com`;
       const elementoTemporal = document.createElement("textarea");
       elementoTemporal.value = texto;
       document.body.appendChild(elementoTemporal);
@@ -114,8 +112,8 @@ bienvenida.addEventListener("click", () => {
 Bienvenido/a a SUERTE CABA 🍀
 Te pido tu *NOMBRE* y *APELLIDO* para poder generarte un usuario 💬
 
-🔺 *MÍNIMO DE CARGA $800*
-🔺 *MINIMO DE RETIRO $2.000*
+🔺 *NO TENEMOS MÍNIMO DE CARGA*
+🔺 *MINIMO DE RETIRO $1.500*
 🔺 *MÁXIMO DE RETIRO NO TENEMOS*
 
 En caso de ya tener un usuario *CON NOSOTROS* registrado en la plataforma por favor avisar 🙏🏻`;
@@ -135,8 +133,8 @@ Tu casino ONLINE de confianza 🍀 En nuestra plataforma te vas a encontrar con 
 *¿Cómo hacer para jugar?*
 Te creamos un usuario, nos solicitas *nuestro cbu para cargar el dinero* que quieras jugar, corroboramos que ingrese y listo 😄 Te acreditamos las fichas al instante.
 
-🔺 *MÍNIMO DE CARGA $800*
-🔺 *MINIMO DE RETIRO $2.000*
+🔺 *NO TENEMOS MÍNIMO DE CARGA*
+🔺 *MINIMO DE RETIRO $1.500*
 
 Si querés que te generemos un usuario responde este mensaje 📨`;
   const elementoTemporal = document.createElement("textarea");
@@ -157,7 +155,7 @@ retirar.addEventListener("click", () => {
 4️⃣ CBU / CVU
 5️⃣ ALIAS
 
-♦️ *MINIMO DE RETIRO: $2.000*
+♦️ *MINIMO DE RETIRO: $1.500*
 
 Aguarde unos instantes y en breve será enviado al sector de pagos 💸
 *Su chat será archivado, por ende, no será leído de manera frecuente, SEA PACIENTE* 🙏🏻`;
